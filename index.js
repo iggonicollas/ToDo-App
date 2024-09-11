@@ -7,7 +7,12 @@ let meta = {
     }
 }
 
-meta.value = "nao eh mais ler um livro"
-meta.log(meta.value)
+let metas = [
+    meta,
+    {
+        value: "caminhar 20 minutos todos os dias",
+        checked: false
+    }
+]
 
-
+console.log(metas[0].value)
